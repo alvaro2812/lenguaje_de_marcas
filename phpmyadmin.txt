@@ -1,0 +1,8 @@
+IDENTIFIED WITH 'caching_sha2_password' BY 'Phpmy@dm1n';
+GRANT ALL PRIVILEGES ON phpmyadmin.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
+
+sudo apt install phpmyadmin
+sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+sudo a2enconf phpmyadmin
+sudo service apache2 restart
