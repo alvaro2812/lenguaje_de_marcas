@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bd_correo [
+    <!ELEMENT bd_correo (email)+>
+    <!ELEMENT email (receptor,asunto,cuerpo)>
+    <!ELEMENT receptor (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT cuerpo (#PCDATA)>
+]>
+<bd_correo>
+    <email>
+        
+        <receptor>hola_mundo@gmail.com</receptor>
+        <asunto>hola mundo</asunto>
+        <cuerpo>hola mundo</cuerpo>
+    </email>
+</bd_correo>
