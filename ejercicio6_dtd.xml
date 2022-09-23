@@ -19,6 +19,7 @@
 
     <componente>
         <nombre></nombre>
+       
         <precioiva></precioiva>
         <tipo></tipo>
         <medida></medida>
