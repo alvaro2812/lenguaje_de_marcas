@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arbol>
+    <especie>
+        <nombre>Litchi</nombre>
+        <variedad>Keat May pink</variedad>
+        <origen>Filipinas</origen>
+        <color_fruto>Rojo</color_fruto>
+        <maduracion>agosto</maduracion>
+        <riego>diario</riego>
+        <precio>3.5</precio>
+
+    </especie>
+
+    <especie>
+        
+        <nombre>Pino</nombre>
+        <variedad>Pino Europeo</variedad>
+        <origen>Europa</origen>
+        <color_fruto>marron</color_fruto>
+        <maduracion>enero</maduracion>
+        <riego>minimo</riego>
+        <precio>1</precio>
+        
+    </especie>
+    
+    <especie>
+        <nombre>Higuera</nombre>
+        <variedad>Higuera comun</variedad>
+        <origen>Europa</origen>
+        <color_fruto>purpura</color_fruto>
+        <maduracion>enero</maduracion>
+        <riego>minimo</riego>
+        <precio>1</precio>
+    </especie>
+
+
+</arbol>
