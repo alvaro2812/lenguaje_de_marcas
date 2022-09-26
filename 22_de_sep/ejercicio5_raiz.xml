@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b1:prueba xmlns:b1="http://localhost/lm/ejercicio5_raiz_1"
+    xmlns:b2="http://localhost/lm/ejercicio5_raiz_2">
+    <b1:banco>
+        <b1:color>marron</b1:color>
+        <b2:asientos>3</b2:asientos>
+    </b1:banco>
+    <b2:banco>
+        <b2:nombre>Banco K</b2:nombre>
+        <b2:dirreccion>calle Y</b2:dirreccion>
+        <b2:presidente>MR.X</b2:presidente>
+        <b2:clientes>15400000</b2:clientes>
+    </b2:banco>
+</b1:prueba>
