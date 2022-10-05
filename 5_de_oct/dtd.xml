@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bdusuarios [
+    <!ELEMENT bdusuarios (usuario)+>
+    <!ELEMENT usuario (email, nombre, suceso)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT suceso (#PCDATA)>
+
+    <!ENTITY web "http://www.librolm.com">
+    <!ENTITY cliente "se informa de que el usuario a accedido al ">
+    ]>
+
+
+<bdusuarios>
+    <usuario>
+        <email>user@librolm.com</email>
+        <nombre>Ataulfo G. Pascual </nombre>
+        
+        <suceso>&cliente; registro en la pagina web</suceso>
+    </usuario>
+
+
+    <usuario>
+        <email>user2@librolm.com</email>
+        <nombre>Ataulfo G. Pascual </nombre>
+        
+        <suceso>&cliente; registro en la pagina web</suceso>
+    </usuario>
+</bdusuarios>

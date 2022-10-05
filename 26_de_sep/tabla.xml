@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<arbol>
+<arboles>
     <especie>
-        <nombre>Litchi</nombre>
-        <variedad>Keat May pink</variedad>
-        <origen>Filipinas</origen>
+        <nombre variedad="Kway May pink" origen="Filipinas">Litchi</nombre>
         <color_fruto>Rojo</color_fruto>
         <maduracion>agosto</maduracion>
         <riego>diario</riego>
@@ -13,9 +11,7 @@
 
     <especie>
         
-        <nombre>Pino</nombre>
-        <variedad>Pino Europeo</variedad>
-        <origen>Europa</origen>
+        <nombre variedad="Pino Europeo" origen="Europa">Pino</nombre>
         <color_fruto>marron</color_fruto>
         <maduracion>enero</maduracion>
         <riego>minimo</riego>
@@ -23,9 +19,7 @@
     </especie>
     
     <especie>
-        <nombre>Higuera</nombre>
-        <variedad>Higuera comun</variedad>
-        <origen>Europa</origen>
+        <nombre  variedad="" origen="Europa">Higuera</nombre>
         <color_fruto>purpura</color_fruto>
         <maduracion>enero</maduracion>
         <riego>minimo</riego>
@@ -33,4 +27,4 @@
     </especie>
 
 
-</arbol>
+</arboles>

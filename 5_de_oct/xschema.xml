@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    
+<usuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./xschema.xsd">
+    <nombre>Alvaro</nombre>
+    <email>alvaro.soriano@daemon4.com</email>
+    <fechaNac>2020-12-30</fechaNac>
+</usuario>
