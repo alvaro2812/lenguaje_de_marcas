@@ -1,0 +1,16 @@
+<!ELEMENT empresaDistanza (pedidos)+>
+<!ELEMENT pedidos (sucursal)+>
+<!ELEMENT sucursal (Direccion_Envio,trabajador,fecha_envio,
+observaciones_pedido,plazo_revision,articulo)+>
+<!ATTLIST sucursal codigo_pedido ID #REQUIRED>
+<!ELEMENT Direccion_Envio (#PCDATA)>
+<!ELEMENT trabajador (#PCDATA)>
+<!ELEMENT fecha_envio (#PCDATA)>
+<!ELEMENT observaciones_pedido (#PCDATA)>
+<!ELEMENT plazo_revision (#PCDATA)>
+
+<!ELEMENT articulo (unidades_vendidas,precio_unidad,observaciones_art)+>
+<!ELEMENT unidades_vendidas (#PCDATA)>
+<!ELEMENT precio_unidad (#PCDATA)>
+<!ELEMENT observaciones_art (#PCDATA)>
+<!ATTLIST articulo codigo_articulo ID #REQUIRED>

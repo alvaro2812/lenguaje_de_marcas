@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bdproductos" type ="bdproductos"/>
+
+    <xs:complexType name="bdproductos">
+        <xs:sequence>
+            <xs:element name="producto" type = "producto" maxOccurs="unbounded" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="producto">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="codigo" type="xs:integer"/>
+            <xs:element name="categoria" type="xs:string"/>
+            <xs:element name="iva" type="xs:integer"/>
+            <xs:element name="precio" type="xs:decimal"/>
+            <xs:element name="descuento" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+</xs:schema>

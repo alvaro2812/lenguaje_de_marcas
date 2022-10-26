@@ -1,0 +1,24 @@
+<!DOCTYPE empresaDistanza  SYSTEM "empresa.dtd">
+<empresaDistanza>
+    <pedidos>
+
+
+        <sucursal codigo_pedido="A2345679">
+            <Direccion_Envio>calle algo 22 , Yecla Murcia</Direccion_Envio>
+            <trabajador>Pablo</trabajador>
+            <fecha_envio>2022-10-12</fecha_envio>
+            <observaciones_pedido></observaciones_pedido>
+            <plazo_revision>8 DIAS</plazo_revision> 
+            <articulo codigo_articulo="AAA-123">
+                <unidades_vendidas>12</unidades_vendidas>
+                <precio_unidad>30</precio_unidad>
+                <observaciones_art></observaciones_art>
+            </articulo>
+        </sucursal>
+
+
+
+
+    </pedidos>
+    
+</empresaDistanza>

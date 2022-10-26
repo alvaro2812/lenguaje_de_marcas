@@ -1,0 +1,50 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresaDistanza" type="empresaDistanza"/>
+
+    <xs:complexType name="empresaDistanza">
+        <xs:sequence>
+            <xs:element name="pedidos" type="pedidos" maxOccurs="1" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="pedidos">
+        <xs:sequence>
+            <xs:element name="sucursal" type="sucursal" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="sucursal">
+        <xs:sequence>
+            <xs:element name="Direccion_Envio" type="xs:string"/>
+            <xs:element name="trabajador" type="xs:string"/>
+            <xs:element name="fecha_envio" type="xs:date"/>
+            <xs:element name="observaciones_pedido" type="xs:string"/>
+            <xs:element name="plazo_revision" type="xs:string"/>
+            <xs:element name="articulo" type="articulo" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="codigo_pedido" type="TipoCodigo_Pedido" use="required"/>
+    </xs:complexType>
+
+<xs:simpleType name ="TipoCodigo_Pedido">
+    <xs:restriction base ="xs:string">
+        <xs:pattern value="[A-Za-z]([0-9]{7})"/>
+    </xs:restriction>
+</xs:simpleType>
+
+
+    <xs:complexType name="articulo">
+        <xs:sequence>
+            <xs:element name="unidades_vendidas" type="xs:integer"/>
+            <xs:element name="precio_unidad" type="xs:integer"/>
+            <xs:element name="observaciones_art" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="codigo_articulo" type="Tipocodigo_articulo" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name ="Tipocodigo_articulo">
+    <xs:restriction base ="xs:string">
+        <xs:pattern value="[A-Z]{3}-[0-9]{3}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>
